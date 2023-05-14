@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #112129; 
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto 0 auto;
+    padding: 0px;
+}
+
+.content {
+    width: 1200px;
+    margin: 40px auto 0 auto;
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(200, 200, 200);
+}
+
+.footer {
+    width: 1200px;
+    height: 160px;
+    margin: 40px auto 0 auto;
+    padding: 20px 0 0 0;
+    text-align: right;
+    font-size: 16px;
+    color: rgb(138, 138, 138);
+    line-height: 22px;
+    background-image: url("../images/footer.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.footer .sources {
+    text-align: right;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+    font-weight:normal;
+}
+
+.headconteiner{
+    width: 450px;
+    margin: 0px 20px 0px 20px;
+    height: 400px;
+    float: left;
+
+}
+
+.headimg{
+    width: 650px;
+    height: 400px;
+    margin: 0;
+    background-image: url("../images/headimg.jpg");
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.sitename{
+    width: 400px; /* фиксируем ширину родительского блока */
+    height: 140px; /* Высота родителя */
+    margin: 10px 0px 0px 0px; /* центрируем родительский блок */
+    padding: 20px 50px 0px 170px;
+    background-image: url("../images/krug.png");
+    background-repeat: no-repeat;
+    font-size: 36px;
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+
+.sitename .sitedescr {
+    padding: 20px 50px 0px 0px;
+    font-size: 20px;
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+
+
+.mainmenu {
+    width: 450px;
+    margin: 20px 20px 0px 20px;
+    height: 250px;
+}
+
+.menuitem1, .menuitem2, .menuitem3, .menuitem4, .menuitem5, .menuitem6  {
+    float: left;
+    line-height: 30px;
+    width: 450px;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(230, 230, 230);
+    margin-right: 0px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+
+.menuitem1 a, .menuitem2 a, .menuitem3 a, .menuitem4 a, .menuitem5 a, .menuitem6 a {
+    font-size: 16px;
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+.menuitem1:hover, .menuitem2:hover, .menuitem3:hover, .menuitem4:hover, .menuitem5:hover, .menuitem6:hover {
+    text-decoration:underline;
+    line-height: 40px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.menuitem1:hover {
+    background-image: url("../images/main-icon.png");
+}
+
+.menuitem2:hover {
+    background-image: url("../images/gagarin-icon.png");
+}
+
+.menuitem3:hover {
+    background-image: url("../images/podgotovka-icon.png");
+}
+
+.menuitem4:hover {
+    background-image: url("../images/vostok-icon.png");
+}
+
+.menuitem5:hover {
+    background-image: url("../images/polet-icon.png");
+}
+
+.menuitem6:hover {
+    background-image: url("../images/poslepoleta-icon.png");
+}
+
+
+.content h1, h2, h3, h4 {
+    margin: 20px 40px;
+}
+
+.cite {
+    margin: 10px 0px 10px 40px;
+    padding: 0px 0px 0px 20px;
+    color: rgb(220, 220, 180);
+    border-left: 1px solid rgb(220, 220, 180);
+}
+
+.imgleft {
+    float: left;
+    margin: 10px 20px 10px 0px;
+}
+
+.imgright {
+    float: right;
+    margin: 10px 0px 10px 20px;
+}
